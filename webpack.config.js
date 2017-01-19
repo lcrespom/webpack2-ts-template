@@ -36,6 +36,9 @@ module.exports = function(env) {
 		resolve: {
 			extensions: ['.webpack.js', '.ts', '.js']
 		},
+		externals: {
+			ramda: 'R'
+		},
 		module: {
 			loaders: [{
 				test: /\.ts$/,
