@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Template for building apps with WebPack 2 and TypeScript",
   "scripts": {
-    "build": "webpack",
-    "dev": "webpack-dev-server --content-base web/"
+    "build": "webpack --env.target=PROD",
+    "dev": "webpack-dev-server --env.target=DEV --content-base web/"
   },
   "keywords": ["webpack", "typescript"],
   "author": "Luis Crespo",

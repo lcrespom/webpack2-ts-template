@@ -1,6 +1,6 @@
 {
 	"compilerOptions": {
-		"target": "ES6",
+		"target": "ES5",
 		"module": "es6",
 		"sourceMap": true,
 		"outDir": "js",
