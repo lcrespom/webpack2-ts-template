@@ -10,6 +10,9 @@ Template for building apps with WebPack 2 and TypeScript
 - Importing from external lib without packaging (e.g. Ramda)
 	- See 'externals' webpack config entry
 - Access config options in runtime (e.g. DEV/PROD environment)
+- Consider simplifying production build with webpack -p
+	- See https://webpack.js.org/guides/production-build/
+	- See http://stackoverflow.com/a/39813511/2342681
 
 ## Done
 - TypeScript support
